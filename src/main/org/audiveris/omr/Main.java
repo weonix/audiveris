@@ -158,7 +158,7 @@ public class Main
             logger.info("Running in batch mode");
 
             // Perhaps time to check for a new release?
-            Versions.considerPolling();
+            // Versions.considerPolling();
 
             // Check MusicFont is loaded
             MusicFont.checkMusicFont();
